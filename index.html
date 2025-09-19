@@ -38,6 +38,11 @@
       user-select:none; -webkit-user-select:none;
     }
     .hint{font-size:12px;color:var(--muted)}
+          /* Ocultar el panel .ui en pantallas móviles */
+      @media (max-width: 768px) {
+        .ui { display: none !important; }
+      }
+
   </style>
 </head>
 <body>
